@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    background: #ece2e2;
+    margin: 0;
+}
+main{
+    flex: 3;
+    background: #f7f5f5;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+aside{
+    flex: 1;
+    background: #f5f0f0;
+}
+.service {
+    display: flex;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service section {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1)
+}
+
+button {
+    border-radius: 10px;
+    background: teal;
+    border: none;
+    padding: 5px;
+    color: white
+}
+
+.cards {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 15px;
+    font-family: sans-serif;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    margin: 10px;
+}
+.you{
+    padding: 20px;
+}
+a{
+    color: blue;
+}
+.link p{
+    color: rgb(28, 131, 156);
+}
+aside{
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: white;
+   padding: 10px;
+}
+nav{
+    display: flex;
+    
+}
+nav a{
+    margin: 10px;
+    color: white;
+}
+footer{
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 5px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+.service section:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
